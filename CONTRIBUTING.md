@@ -15,7 +15,7 @@ In general, we follow the "fork-and-pull" Git workflow.
 
 2. Clone this repo to your own machine.
     ```
-    git clone https://github.com/<your_username>/MMRL.git
+    git clone https://github.com/<your_username>/awesome-multi-modal-reinforcement-learning.git
     ```
 
 3. Make necessary changes and commit those changes.
