@@ -10,7 +10,7 @@ Welcome to follow and star!
 
 Multi-Modal RL agents focus on learning from video (images), language (text), or both, as humans do. We believe that it is important for intelligent agents to learn directly from images or text, since such data can be easily obtained from the Internet.
 
-<img width="347" alt="image" src="https://user-images.githubusercontent.com/4834562/187825656-4a07273e-3763-40c5-9e15-d54350d8171e.png">
+![飞书20220922-161353](https://user-images.githubusercontent.com/4834562/191696555-2ff17e41-77f4-4d04-ba2a-ea9bc8d99d96.png)
 
 ## Papers
 
