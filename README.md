@@ -53,7 +53,7 @@ format:
   - ExpEnv: [minerl](https://github.com/minerllabs/minerl)
 
 - [Offline Reinforcement Learning from Images with Latent Space Models](https://proceedings.mlr.press/v144/rafailov21a.html)
-  - Rafael Rafailov, Tianhe Yu, Aravind Rajeswaran, etc. *ICML2021*
+  - Rafael Rafailov, Tianhe Yu, Aravind Rajeswaran, etc. *L4DC2021*
   - Key Words: Latent Space Models
   - ExpEnv: [DeepMind Control](https://github.com/deepmind/dm_control), [Adroit Pen](https://github.com/Farama-Foundation/D4RL), [Sawyer Door Open](https://github.com/suraj-nair-1/metaworld), [Robel D’Claw Screw](https://github.com/google-research/robel)
 
