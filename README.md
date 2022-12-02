@@ -26,7 +26,7 @@ format:
   - Key Words: Multimodal video captioning,  Pretraining using a future utterance, Multimodal Video Generative Pretraining
   - ExpEnv: [HowTo100M](https://arxiv.org/abs/1906.03327)
 
-- Open-vocabulary Queryable Scene Representations for Real World Planning 
+- [Open-vocabulary Queryable Scene Representations for Real World Planning](https://arxiv.org/abs/2209.09874)
   - Boyuan Chen, Fei Xia, Brian Ichter, Kanishka Rao, Keerthana Gopalakrishnan, Michael S. Ryoo, Austin Stone, Daniel Kappler
   - Key Words: Target Detection, Real World, Robitic Tasks
   - ExpEnv: Say Can
