@@ -21,41 +21,42 @@ format:
   - key words.
   - experiment environment.
 ```
-- End-to-end Generative Pretraining for Multimodal Video Captioning 
-  -  Paul Hongsuck Seo, Arsha Nagrani, Anurag Arnab, Cordelia Schmid
+- [End-to-end Generative Pretraining for Multimodal Video Captioning](https://arxiv.org/abs/2201.08264)
+  - Paul Hongsuck Seo, Arsha Nagrani, Anurag Arnab, Cordelia Schmid
   - Key Words: Multimodal video captioning,  Pretraining using a future utterance, Multimodal Video Generative Pretraining
-  - ExpEnv: HowTo100M, YouCook2, Video Timeline Tags (ViTT), MSR-VTT, ActivityNet-Captions
+  - ExpEnv: [HowTo100M](https://arxiv.org/abs/1906.03327)
 
 - Open-vocabulary Queryable Scene Representations for Real World Planning 
   - Boyuan Chen, Fei Xia, Brian Ichter, Kanishka Rao, Keerthana Gopalakrishnan, Michael S. Ryoo, Austin Stone, Daniel Kappler
   - Key Words: Target Detection, Real World, Robitic Tasks
   - ExpEnv: Say Can
 
-- Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
+- [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2209.09874)
   - Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil J Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Mengyuan Yan, Andy Zeng
   - Key Words: Real World, natural language
   - ExpEnv: Say Can
 
 
-- Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks
+- [Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)
   - Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal, Owais Khan Mohammed, Saksham Singhal, Subhojit Som, Furu Wei
   - Key Words: backbone architecture, pretraining task, and model scaling up
-  - ExpEnv: ADE20K, COCO, NLVR2, Flickr30K
+  - ExpEnv: [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/), [COCO](https://cocodataset.org/), [NLVR2](https://paperswithcode.com/dataset/nlvr), [Flickr30K](https://paperswithcode.com/dataset/flickr30k)
 
-- LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action
+- [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429)
   - Dhruv Shah, Blazej Osinski, Brian Ichter, Sergey Levine
   - Key Words: robotic navigation, goal-conditioned, unannotated large dataset
+  - ExpEnv: None
 
 
-- SOAT: A Scene- and Object-Aware Transformer for Vision-and-Language Navigation
+- [SOAT: A Scene- and Object-Aware Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2110.14143)
   - Abhinav Moudgil, Arjun Majumdar, Harsh Agrawal, Stefan Lee, Dhruv Batra
   - Key Words: visual navigation, natural language instructions, large-scale web data
   - ExpEnv: Room-to-Room (R2R),  Room-Across-Room (RxR)
 
-- Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning
+- [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
   - Junhyuk Oh, Satinder Singh, Honglak Lee, Pushmeet Kohli
   - Key Words: unseen instruction, sequential instruction
-  - ExpEnv: Minecraft (Oh, V. Chockalingam, S. P. Singh, and H. Lee. Control of memory, active perception, and action in minecraft. In ICML, 2016.)
+  - ExpEnv: [Minecraft](https://arxiv.org/abs/1605.09128)
 
 
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853)
