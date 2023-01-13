@@ -59,6 +59,69 @@ format:
   - ExpEnv: [Minecraft](https://arxiv.org/abs/1605.09128)
 
 
+- [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794)
+  - Xi Chen, Xiao Wang, Soravit Changpinyo, AJ Piergiovanni, Piotr Padlewski, Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Nan Ding, Keran Rong, Hassan Akbari, Gaurav Mishra, Linting Xue, Ashish Thapliyal, James Bradbury, Weicheng Kuo, Mojtaba Seyedhosseini, Chao Jia, Burcu Karagol Ayan, Carlos Riquelme, Andreas Steiner, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut
+  - Keyword: amazing zero-shot, language component and visual component
+  - ExpEnv: None
+-  [Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2202.11742)
+    - Shizhe Chen, Pierre-Louis Guhur, Makarand Tapaswi, Cordelia Schmid, Ivan Laptev
+    - Keyword: dual-scale graph transformer, dual-scale graph transformer, affordance detection
+    - ExpEnv: None
+
+- [See, Plan, Predict: Language-guided Cognitive Planning with Video Prediction](https://arxiv.org/abs/2210.03825v1)
+    - Maria Attarian, Advaya Gupta, Ziyi Zhou, Wei Yu, Igor Gilitschenski, Animesh Garg
+    - Keyword: cognitive planning,  language-guided video prediction
+    - ExpEnv: None
+
+-  [MIND ’S EYE: GROUNDED LANGUAGE MODEL REASONING THROUGH SIMULATION](https://arxiv.org/abs/2210.05359)
+    - Ruibo Liu, Jason Wei, Shixiang Shane Gu, Te-Yen Wu, Soroush Vosoughi, Claire Cui, Denny Zhou, Andrew M. Dai
+    - Keyword:  language2physical-world, reasoning ability
+    - ExpEnv: [MuJoCo](https://mujoco.org/)
+
+
+- [Language Conditioned Imitation Learning over Unstructured Data](https://arxiv.org/abs/2005.07648)
+  - Corey Lynch, Pierre Sermanet
+  - Keyword: open-world environments
+  - ExpEnv: None
+
+- [End-to-end Generative Pretraining for Multimodal Video Captioning](https://arxiv.org/abs/2201.08264)
+  - Paul Hongsuck Seo, Arsha Nagrani, Anurag Arnab, Cordelia Schmid
+  - Key Words: Multimodal video captioning,  Pretraining using a future utterance, Multimodal Video Generative Pretraining
+  - ExpEnv: [HowTo100M](https://arxiv.org/abs/1906.03327)
+
+- [Open-vocabulary Queryable Scene Representations for Real World Planning](https://arxiv.org/abs/2209.09874)
+  - Boyuan Chen, Fei Xia, Brian Ichter, Kanishka Rao, Keerthana Gopalakrishnan, Michael S. Ryoo, Austin Stone, Daniel Kappler
+  - Key Words: Target Detection, Real World, Robotic Tasks
+  - ExpEnv: [Say Can](https://say-can.github.io/)
+
+- [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691)
+  - Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil J Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Mengyuan Yan, Andy Zeng
+  - Key Words: real world, natural language
+  - ExpEnv: [Say Can](https://say-can.github.io/)
+
+
+- [Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)
+  - Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal, Owais Khan Mohammed, Saksham Singhal, Subhojit Som, Furu Wei
+  - Key Words: backbone architecture, pretraining task, model scaling up
+  - ExpEnv: [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/), [COCO](https://cocodataset.org/), [NLVR2](https://paperswithcode.com/dataset/nlvr), [Flickr30K](https://paperswithcode.com/dataset/flickr30k)
+
+- [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429)
+  - Dhruv Shah, Blazej Osinski, Brian Ichter, Sergey Levine
+  - Key Words: robotic navigation, goal-conditioned, unannotated large dataset
+  - ExpEnv: None
+
+
+- [SOAT: A Scene- and Object-Aware Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2110.14143)
+  - Abhinav Moudgil, Arjun Majumdar, Harsh Agrawal, Stefan Lee, Dhruv Batra
+  - Key Words: visual navigation, natural language instructions, large-scale web data
+  - ExpEnv: Room-to-Room (R2R),  Room-Across-Room (RxR)
+
+- [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
+  - Junhyuk Oh, Satinder Singh, Honglak Lee, Pushmeet Kohli
+  - Key Words: unseen instruction, sequential instruction
+  - ExpEnv: [Minecraft](https://arxiv.org/abs/1605.09128)
+
+
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853)
   - Linxi Fan, Guanzhi Wang, Yunfan Jiang, etc. *ArXiv2022*
   - Key Words: multimodal dataset, MineClip
