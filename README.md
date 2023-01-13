@@ -21,6 +21,32 @@ format:
   - key words.
   - experiment environment.
 ```
+
+- [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794)
+  - Xi Chen, Xiao Wang, Soravit Changpinyo, AJ Piergiovanni, Piotr Padlewski, Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Nan Ding, Keran Rong, Hassan Akbari, Gaurav Mishra, Linting Xue, Ashish Thapliyal, James Bradbury, Weicheng Kuo, Mojtaba Seyedhosseini, Chao Jia, Burcu Karagol Ayan, Carlos Riquelme, Andreas Steiner, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut
+  - Keyword: amazing zero-shot, language component and visual component
+  - ExpEnv: None
+-  [Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2202.11742)
+    - Shizhe Chen, Pierre-Louis Guhur, Makarand Tapaswi, Cordelia Schmid, Ivan Laptev
+    - Keyword: dual-scale graph transformer, dual-scale graph transformer, affordance detection
+    - ExpEnv: None
+
+- [See, Plan, Predict: Language-guided Cognitive Planning with Video Prediction](https://arxiv.org/abs/2210.03825v1)
+    - Maria Attarian, Advaya Gupta, Ziyi Zhou, Wei Yu, Igor Gilitschenski, Animesh Garg
+    - Keyword: cognitive planning,  language-guided video prediction
+    - ExpEnv: None
+
+-  [MIND ’S EYE: GROUNDED LANGUAGE MODEL REASONING THROUGH SIMULATION](https://arxiv.org/abs/2210.05359)
+    - Ruibo Liu, Jason Wei, Shixiang Shane Gu, Te-Yen Wu, Soroush Vosoughi, Claire Cui, Denny Zhou, Andrew M. Dai
+    - Keyword:  language2physical-world, reasoning ability
+    - ExpEnv: [MuJoCo](https://mujoco.org/)
+
+
+- [Language Conditioned Imitation Learning over Unstructured Data](https://arxiv.org/abs/2005.07648)
+  - Corey Lynch, Pierre Sermanet
+  - Keyword: open-world environments
+  - ExpEnv: None
+
 - [End-to-end Generative Pretraining for Multimodal Video Captioning](https://arxiv.org/abs/2201.08264)
   - Paul Hongsuck Seo, Arsha Nagrani, Anurag Arnab, Cordelia Schmid
   - Key Words: Multimodal video captioning,  Pretraining using a future utterance, Multimodal Video Generative Pretraining
