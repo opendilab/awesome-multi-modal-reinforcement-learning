@@ -201,6 +201,16 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+- [End-to-End Streaming Video Temporal Action Segmentation with Reinforce Learning](https://arxiv.org/abs/2309.15683)
+  - Wujun Wen, Jinrong Zhang, Shenglan Liu, Yunheng Li, Qifeng Li, Lin Feng
+  - Key Words: Temporal Action Segmentation, RL in Video Analysis
+  - ExpEnv: EGTEA
+
+- [Do as I can, not as I get:Topology-aware multi-hop reasoningon multi-modal knowledge graphs](https://arxiv.org/abs/2306.10345)
+  - Shangfei Zheng, Hongzhi Yin, Tong Chen, Quoc Viet Hung Nguyen, Wei Chen, Lei Zhao
+  - Key Words: Multi-hop reasoning, multi-modal knowledge graphs, inductive setting, adaptive reinforcement learning
+  - ExpEnv: None
+
 - [Multimodal Reinforcement Learning for Robots Collaborating with Humans](https://arxiv.org/abs/2303.07265)
   - Afagh Mehri Shervedani, Siyu Li, Natawut Monaikul, Bahareh Abbasi, Barbara Di Eugenio, Milos Zefran
   - Key Words: robust and deliberate decisions, end-to-end training, importance enhancement, similarity, improve IRL training process multimodal RL domains
