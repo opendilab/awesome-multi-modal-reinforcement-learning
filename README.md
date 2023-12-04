@@ -201,6 +201,26 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+- [A Contextualized Real-Time Multimodal Emotion Recognition for Conversational Agents using Graph Convolutional Networks in Reinforcement Learning](https://arxiv.org/abs/2309.15683)
+  - Fathima Abdul Rahman, Guang Lu
+  - Key Words: Emotion Recognition, GNN in RL
+  - ExpEnv: IEMOCAP
+
+- [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
+  - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
+  - Key Words: LLM, generic UI task automation API
+  - ExpEnv: RicoSCA, MoTIF
+
+- [Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving](https://arxiv.org/abs/2310.01957)
+  - Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton
+  - Key Words: LLM in Autonomous Driving, object-level multimodal LLM
+  - ExpEnv: RicoSCA, MoTIF
+
+- [Nonprehensile Planar Manipulation through Reinforcement Learning with Multimodal Categorical Exploration ](https://arxiv.org/abs/2308.02459)
+  - Juan Del Aguila Ferrandis, João Moura, Sethu Vijayakumar
+  - Key Words: multimodal exploration approach
+  - ExpEnv: KUKA iiwa robot arm
+
 - [End-to-End Streaming Video Temporal Action Segmentation with Reinforce Learning](https://arxiv.org/abs/2309.15683)
   - Wujun Wen, Jinrong Zhang, Shenglan Liu, Yunheng Li, Qifeng Li, Lin Feng
   - Key Words: Temporal Action Segmentation, RL in Video Analysis
