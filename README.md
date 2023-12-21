@@ -201,6 +201,11 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+- [Parameterized Decision-making with Multi-modal Perception for Autonomous Driving](https://arxiv.org/abs/2312.11935)
+  - Yuyang Xia, Shuncheng Liu, Quanlin Yu, Liwei Deng, You Zhang, Han Su, Kai Zheng
+  - Key Words: Autonomous driving, GNN in RL
+  - ExpEnv:  CARLA
+
 - [A Contextualized Real-Time Multimodal Emotion Recognition for Conversational Agents using Graph Convolutional Networks in Reinforcement Learning](https://arxiv.org/abs/2309.15683)
   - Fathima Abdul Rahman, Guang Lu
   - Key Words: Emotion Recognition, GNN in RL
