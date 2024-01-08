@@ -201,6 +201,11 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+- [On Time-Indexing as Inductive Bias in Deep RL for Sequential Manipulation Tasks](https://arxiv.org/abs/2401.01993)
+  - M. Nomaan Qureshi, Ben Eisner, David Held
+  - Key Words: Multimodality of policy output, Action head switching
+  - ExpEnv:  MetaWorld
+
 - [Parameterized Decision-making with Multi-modal Perception for Autonomous Driving](https://arxiv.org/abs/2312.11935)
   - Yuyang Xia, Shuncheng Liu, Quanlin Yu, Liwei Deng, You Zhang, Han Su, Kai Zheng
   - Key Words: Autonomous driving, GNN in RL
