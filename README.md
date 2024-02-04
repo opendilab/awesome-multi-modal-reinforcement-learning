@@ -201,6 +201,11 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+- [M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised Representation Learning for Robotic Manipulation ](https://browse.arxiv.org/abs/2401.17032)
+  - Fotios Lygerakis, Vedant Dave, Elmar Rueckert
+  - Key Words: Robotic Manipulation, Self-supervised representation 
+  - ExpEnv:  Gym
+
 - [On Time-Indexing as Inductive Bias in Deep RL for Sequential Manipulation Tasks](https://arxiv.org/abs/2401.01993)
   - M. Nomaan Qureshi, Ben Eisner, David Held
   - Key Words: Multimodality of policy output, Action head switching
