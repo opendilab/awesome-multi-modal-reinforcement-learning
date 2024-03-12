@@ -200,6 +200,11 @@ format:
   - Key Words: Multi-Modal Emotion Recognition, Cross-Attention
   - ExpEnv: None
 
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://proceedings.mlr.press/v202/li23q/li23q.pdf) *PMLR 2023*
+  - Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi 
+  - Key Words: vision-language pretraining, zero-shot image-to-text generation
+  - ExpEnv: None
+
 ### ArXiv
 - [M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised Representation Learning for Robotic Manipulation ](https://browse.arxiv.org/abs/2401.17032)
   - Fotios Lygerakis, Vedant Dave, Elmar Rueckert
