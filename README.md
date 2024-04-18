@@ -16,7 +16,8 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
 
 - [A Taxonomy of Multi-Modal Reinforcement Learning](#a-Taxonomy-multi-modal-reinforcement-learning)
 - [Papers](#papers)
-  - [ICLR 2023](#iclr-2023)(**<font color="red">New!!!</font>**) 
+  - [ICLR 2024](#iclr-2024)(**<font color="red">New!!!</font>**) 
+  - [ICLR 2023](#iclr-2023)
   - [ICLR 2022](#iclr-2022)
   - [ICLR 2021](#iclr-2021)
   - [ICLR 2019](#iclr-2019)
@@ -40,6 +41,27 @@ format:
   - key words.
   - experiment environment.
 ```
+
+### ICLR 2024
+- [DrM: Mastering Visual Reinforcement Learning through Dormant Ratio Minimization](https://openreview.net/pdf?id=MSe8YFbhUE)
+  - Guowei Xu, Ruijie Zheng, Yongyuan Liang, Xiyao Wang, Zhecheng Yuan, Tianying Ji, Yu Luo, Xiaoyu Liu, Jiaxin Yuan, Pu Hua, Shuzhen Li, Yanjie Ze, Hal Daumé III, Furong Huang, Huazhe Xu
+  - Keyword: Visual RL; Dormant Ratio
+  - ExpEnv: [DeepMind Control Suite](https://github.com/deepmind/dm_control),[Meta-world](https://github.com/rlworkgroup/metaworld),[Adroit](https://github.com/Farama-Foundation/D4RL)
+
+- [Revisiting Data Augmentation in Deep Reinforcement Learning](https://openreview.net/pdf?id=EGQBpkIEuu)
+  - Jianshu Hu, Yunpeng Jiang, Paul Weng
+  - Keyword: Reinforcement Learning, Data Augmentation
+  - ExpEnv: [DeepMind Control Suite](https://github.com/deepmind/dm_control)
+
+- [Revisiting Plasticity in Visual Reinforcement Learning: Data, Modules and Training Stages](https://openreview.net/forum?id=0aR1s9YxoL)
+  - Guozheng Ma, Lu Li, Sen Zhang, Zixuan Liu, Zhen Wang, Yixin Chen, Li Shen, Xueqian Wang, Dacheng Tao
+  - Keyword: Plasticity, Visual Reinforcement Learning, Deep Reinforcement Learning, Sample Efficiency
+  - ExpEnv: [DeepMind Control Suite](https://github.com/deepmind/dm_control),[Atari](https://github.com/openai/gym)
+
+- [Entity-Centric Reinforcement Learning for Object Manipulation from Pixels](https://openreview.net/forum?id=uDxeSZ1wdI)
+  - Dan Haramati, Tal Daniel, Aviv Tamar
+  - Keyword: deep reinforcement learning, visual reinforcement learning, object-centric, robotic object manipulation, compositional generalization
+  - ExpEnv: [IsaacGym](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs)
 
 ### ICLR 2023
 - [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794)(**<font color="red">notable top 5%</font>**) 
