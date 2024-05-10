@@ -21,6 +21,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
   - [ICLR 2022](#iclr-2022)
   - [ICLR 2021](#iclr-2021)
   - [ICLR 2019](#iclr-2019)
+  - [Neurips 2023](#neurips-2023)
   - [Neurips 2022](#neurips-2022)
   - [Neurips 2021](#neurips-2021)
   - [Neurips 2018](#neurips-2018)
@@ -106,6 +107,12 @@ format:
   - Dibya Ghosh, Abhishek Gupta, Sergey Levine. 
   - Key Words: Actionable Representations Learning
   - ExpEnv: 2D navigation(2D Wall, 2D Rooms, Wheeled, Wheeled Rooms, Ant, Pushing)
+
+### NeurIPS 2023
+- [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/pdf/2302.14045)
+  - Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, etc.
+  - Key Words: Multimodal Perception, World Modeling
+  - ExpEnv: [IQ50](https://aka.ms/kosmos-iq50)
 
 ### NeurIPS 2022
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853)
@@ -223,6 +230,11 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+- [Spatialvlm: Endowing vision-language models with spatial reasoning capabilities](https://arxiv.org/pdf/2401.12168)
+  - Boyuan Chen, Zhuo Xu, Sean Kirmani, Brian Ichter, Danny Driess, Pete Florence, Dorsa Sadigh, Leonidas Guibas, Fei Xia
+  - Key Words: Visual Question Answering, 3D Spatial Reasoning
+  - ExpEnv:  spatial VQA dataset
+
 - [M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised Representation Learning for Robotic Manipulation ](https://browse.arxiv.org/abs/2401.17032)
   - Fotios Lygerakis, Vedant Dave, Elmar Rueckert
   - Key Words: Robotic Manipulation, Self-supervised representation 
