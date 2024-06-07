@@ -1,5 +1,6 @@
 # Awesome Multi-Modal Reinforcement Learning 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+
 This is a collection of research papers for **Multi-Modal reinforcement learning (MMRL)**.
 And the repository will be continuously updated to track the frontier of MMRL.
 Some papers may not be relevant to RL, but we include them anyway as they may be useful for the research of MMRL.
