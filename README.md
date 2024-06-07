@@ -1,4 +1,5 @@
 # Awesome Multi-Modal Reinforcement Learning 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  ![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=opendilab.awesome-RLHF&left_text=Visitors) 
 
 This is a collection of research papers for **Multi-Modal reinforcement learning (MMRL)**.
 And the repository will be continuously updated to track the frontier of MMRL.
@@ -14,24 +15,28 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
 
 ## Table of Contents
 
-- [A Taxonomy of Multi-Modal Reinforcement Learning](#a-Taxonomy-multi-modal-reinforcement-learning)
-- [Papers](#papers)
-  - [ICLR 2024](#iclr-2024)(**<font color="red">New!!!</font>**) 
-  - [ICLR 2023](#iclr-2023)
-  - [ICLR 2022](#iclr-2022)
-  - [ICLR 2021](#iclr-2021)
-  - [ICLR 2019](#iclr-2019)
-  - [Neurips 2023](#neurips-2023)
-  - [Neurips 2022](#neurips-2022)
-  - [Neurips 2021](#neurips-2021)
-  - [Neurips 2018](#neurips-2018)
-  - [ICML 2022](#icml-2022)
-  - [ICML 2019](#icml-2019)
-  - [ICML 2017](#icml-2017)
-  - [CVPR 2022](#cvpr-2022)
-  - [CoRL 2022](#corl-2022)
-  - [Arxiv](#arxiv)
-- [Contributing](#contributing)
+- [Awesome Multi-Modal Reinforcement Learning](#awesome-multi-modal-reinforcement-learning)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Papers](#papers)
+    - [ICLR 2024](#iclr-2024)
+    - [ICLR 2023](#iclr-2023)
+    - [ICLR 2022](#iclr-2022)
+    - [ICLR 2021](#iclr-2021)
+    - [ICLR 2019](#iclr-2019)
+    - [NeurIPS 2023](#neurips-2023)
+    - [NeurIPS 2022](#neurips-2022)
+    - [NeurIPS 2021](#neurips-2021)
+    - [NeurIPS 2018](#neurips-2018)
+    - [ICML 2022](#icml-2022)
+    - [ICML 2019](#icml-2019)
+    - [ICML 2017](#icml-2017)
+    - [CVPR 2022](#cvpr-2022)
+    - [CoRL 2022](#corl-2022)
+    - [Other](#other)
+    - [ArXiv](#arxiv)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Papers
 
@@ -113,6 +118,16 @@ format:
   - Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, etc.
   - Key Words: Multimodal Perception, World Modeling
   - ExpEnv: [IQ50](https://aka.ms/kosmos-iq50)
+
+- [MotionGPT: Human Motion as a Foreign Language](https://proceedings.neurips.cc/paper_files/paper/2023/file/3fbf0c1ea0716c03dea93bb6be78dd6f-Paper-Conference.pdf)
+  - Biao Jiang, Xin Chen, Wen Liu, Jingyi Yu, Gang Yu, Tao Chen
+  - Key Words: Human motion, text-driven motion generation
+  - ExpEnv: [HumanML3D](https://ericguo5513.github.io/text-to-motion),[KIT](https://motion-database.humanoids.kit.edu/)
+
+- [Large Language Models are Visual Reasoning Coordinators](https://proceedings.neurips.cc/paper_files/paper/2023/file/ddfe6bae7b869e819f842753009b94ad-Paper-Conference.pdf)
+  - Liangyu Chen, Bo Li, Sheng Shen, Jingkang Yang, Chunyuan Li, Kurt Keutzer, Trevor Darrell, Ziwei Liu
+  - Key Words: Visual Reasoning, Large Language Model
+  - ExpEnv: [A-OKVQA](), [OK-VQA](), [e-SNLI-VE](), [VSR]()
 
 ### NeurIPS 2022
 - [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge](https://arxiv.org/abs/2206.08853)
