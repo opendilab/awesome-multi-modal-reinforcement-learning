@@ -1,6 +1,10 @@
 # Awesome Multi-Modal Reinforcement Learning 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
-[![GitHub license](https://img.shields.io/github/license/opendilab/awesome-model-based-RL)](https://github.com/opendilab/awesome-multi-modal-reinforcement-learning/blob/main/LICENSE)
+![visitor badge](https://visitor-badge.lithub.cc/badge?page_id=opendilab.awesome-multi-modal-reinforcement-learning&left_text=Visitors)
+[![docs](https://img.shields.io/badge/docs-latest-blue)](https://github.com/opendilab/awesome-multi-modal-reinforcement-learning)
+![GitHub stars](https://img.shields.io/github/stars/opendilab/awesome-multi-modal-reinforcement-learning?color=yellow)
+![GitHub forks](https://img.shields.io/github/forks/opendilab/awesome-multi-modal-reinforcement-learning?color=9cf)
+[![GitHub license](https://img.shields.io/github/license/opendilab/awesome-multi-modal-reinforcement-learning)](https://github.com/opendilab/awesome-multi-modal-reinforcement-learning/blob/main/LICENSE)
 
 This is a collection of research papers for **Multi-Modal reinforcement learning (MMRL)**.
 And the repository will be continuously updated to track the frontier of MMRL.
