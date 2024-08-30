@@ -36,6 +36,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
     - [ICML 2022](#icml-2022)
     - [ICML 2019](#icml-2019)
     - [ICML 2017](#icml-2017)
+    - [CVPR 2024](#cvpr-2024)
     - [CVPR 2022](#cvpr-2022)
     - [CoRL 2022](#corl-2022)
     - [Other](#other)
@@ -119,6 +120,16 @@ format:
   - ExpEnv: 2D navigation(2D Wall, 2D Rooms, Wheeled, Wheeled Rooms, Ant, Pushing)
 
 ### NeurIPS 2023
+- [Inverse Dynamics Pretraining Learns Good Representations for Multitask Imitation](https://openreview.net/pdf?id=kjMGHTo8Cs)
+  - David Brandfonbrener, Ofir Nachum, Joan Bruna
+  - Key Words: representation learning, imitation learning
+  - ExpEnv: [Sawyer Door Open](https://github.com/suraj-nair-1/metaworld), [MetaWorld](https://github.com/suraj-nair-1/metaworld), [Franka Kitchen, Adroit](https://github.com/aravindr93/mjrl)
+
+- [Frequency-Enhanced Data Augmentation for Vision-and-Language Navigation](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0d9e08f247ca7fbbfd5e50b7ff9cf357-Abstract-Conference.html)
+  - Keji He, Chenyang Si, Zhihe Lu, Yan Huang, Liang Wang, Xinchao Wang
+  - Key Words: Vision-and-Language Navigation, High-Frequency, Data Augmentation
+  - ExpEnv: [Matterport3d](https://niessner.github.io/Matterport/)
+
 - [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/pdf/2302.14045)
   - Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, etc.
   - Key Words: Multimodal Perception, World Modeling
@@ -189,6 +200,12 @@ format:
   - Junhyuk Oh, Satinder Singh, Honglak Lee, Pushmeet Kohli
   - Key Words: unseen instruction, sequential instruction
   - ExpEnv: [Minecraft](https://arxiv.org/abs/1605.09128)
+
+### CVPR 2024
+- [Vision-and-Language Navigation via Causal Learning](https://arxiv.org/abs/2404.10241)
+  - Liuyi Wang, Zongtao He, Ronghao Dang, Mengjiao Shen, Chengju Liu, Qijun Chen
+  - Key Words: vision-and-language navigation, cross-modal causal transformer
+  - ExpEnv: [R2R](https://bringmeaspoon.org/) [REVERIE](https://github.com/google-research-datasets/RxR) [RxR-English](https://github.com/google-research-datasets/RxR) [SOON]()
 
 ### CVPR 2022
 - [End-to-end Generative Pretraining for Multimodal Video Captioning](https://arxiv.org/abs/2201.08264)
