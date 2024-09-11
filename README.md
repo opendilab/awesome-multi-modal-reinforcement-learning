@@ -202,6 +202,11 @@ format:
   - ExpEnv: [Minecraft](https://arxiv.org/abs/1605.09128)
 
 ### CVPR 2024
+- [DMR: Decomposed Multi-Modality Representations for Frames and Events Fusion in Visual Reinforcement Learning](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_DMR_Decomposed_Multi-Modality_Representations_for_Frames_and_Events_Fusion_in_CVPR_2024_paper.html)
+  - Haoran Xu, Peixi Peng, Guang Tan, Yuan Li, Xinhai Xu, Yonghong Tian
+  - Key Words: Visual Reinforcement Learning, Multi-Modality Representation, Dynamic Vision Sensor
+  - ExpEnv: [Carla]()
+
 - [Vision-and-Language Navigation via Causal Learning](https://arxiv.org/abs/2404.10241)
   - Liuyi Wang, Zongtao He, Ronghao Dang, Mengjiao Shen, Chengju Liu, Qijun Chen
   - Key Words: vision-and-language navigation, cross-modal causal transformer
@@ -246,6 +251,11 @@ format:
   - ExpEnv: [MetaWorld](https://github.com/suraj-nair-1/metaworld), [Franka Kitchen, Adroit](https://github.com/aravindr93/mjrl)
 
 ### Other
+- [RL-EMO: A Reinforcement Learning Framework for Multimodal Emotion Recognition](https://arxiv.org/abs/2005.07648) *ICASSP 2024*
+  - Chengwen Zhang, Yuhao Zhang, Bo Cheng
+  - Keyword: Multimodal Emotion Recognition, Reinforcement Learning, Graph Convolution Network
+  - ExpEnv: None
+
 - [Language Conditioned Imitation Learning over Unstructured Data](https://arxiv.org/abs/2005.07648) *RSS 2021*
   - Corey Lynch, Pierre Sermanet 
   - Keyword: open-world environments
