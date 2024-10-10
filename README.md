@@ -33,6 +33,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
     - [NeurIPS 2022](#neurips-2022)
     - [NeurIPS 2021](#neurips-2021)
     - [NeurIPS 2018](#neurips-2018)
+    - [ICML 2024](#icml-2024)
     - [ICML 2022](#icml-2022)
     - [ICML 2019](#icml-2019)
     - [ICML 2017](#icml-2017)
@@ -173,6 +174,42 @@ format:
   - Key Words: World model, generative RNN, VAE
   - ExpEnv: [VizDoom](https://github.com/mwydmuch/ViZDoom), [CarRacing](https://github.com/openai/gym)
 
+### ICML 2024
+- [Investigating Pre-Training Objectives for Generalization in Vision-Based Reinforcement Learning](https://proceedings.mlr.press/v235/kim24u.html)
+  - Donghu Kim, Hojoon Lee, Kyungmin Lee, Dongyoon Hwang, Jaegul Choo
+  - Key Words: vision-based RL
+  - ExpEnv: [Atari](https://github.com/openai/gym)
+
+- [RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback](https://proceedings.mlr.press/v235/wang24bn.html)
+  - Yufei Wang, Zhanyi Sun, Jesse Zhang, Zhou Xian, Erdem Biyik, David Held, Zackory Erickson
+  - Key Words: learning from VLM
+  - ExpEnv: [Gym](), [MetaWorld](https://github.com/suraj-nair-1/metaworld)
+
+- [Reward Shaping for Reinforcement Learning with An Assistant Reward Agent](https://proceedings.mlr.press/v235/ma24l.html)
+  - Haozhe Ma, Kuankuan Sima, Thanh Vinh Vo, Di Fu, Tze-Yun Leong
+  - Key Words: dual-agent reward shaping framework
+  - ExpEnv: [Mujoco](https://github.com/google-deepmind/mujoco)
+
+- [FuRL: Visual-Language Models as Fuzzy Rewards for Reinforcement Learning](https://proceedings.mlr.press/v235/fu24j.html)
+  - Yuwei Fu, Haichao Zhang, Di Wu, Wei Xu, Benoit Boulet 
+  - Key Words: high-dimensional observations,  representation learning for RL
+  - ExpEnv: [MetaWorld](https://github.com/suraj-nair-1/metaworld)
+
+- [Rich-Observation Reinforcement Learning with Continuous Latent Dynamics](https://proceedings.mlr.press/v235/song24i.html)
+  - Yuda Song, Lili Wu, Dylan J Foster, Akshay Krishnamurthy
+  - Key Words: VLM as reward function
+  - ExpEnv: [maze]()
+
+- [LLM-Empowered State Representation for Reinforcement Learning](https://proceedings.mlr.press/v235/wang24bh.html)
+  - Boyuan Wang, Yun Qu, Yuhang Jiang, Jianzhun Shao, Chang Liu, Wenming Yang, Xiangyang Ji
+  - Key Words: LLM-based state representation
+  - ExpEnv: [Mujoco](https://github.com/google-deepmind/mujoco)
+
+- [Code as Reward: Empowering Reinforcement Learning with VLMs](https://proceedings.mlr.press/v235/venuto24a.html)
+  - David Venuto, Mohammad Sami Nur Islam, Martin Klissarov, etc. 
+  - Key Words: Vision-Language Models, reward functions
+  - ExpEnv: [MiniGrid](https://minigrid.farama.org/)
+
 ### ICML 2022
 - [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/pdf/2201.07207.pdf)
   - Wenlong Huang, Pieter Abbeel, Deepak Pathak, etc. 
@@ -202,6 +239,11 @@ format:
   - ExpEnv: [Minecraft](https://arxiv.org/abs/1605.09128)
 
 ### CVPR 2024
+- [DMR: Decomposed Multi-Modality Representations for Frames and Events Fusion in Visual Reinforcement Learning](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_DMR_Decomposed_Multi-Modality_Representations_for_Frames_and_Events_Fusion_in_CVPR_2024_paper.html)
+  - Haoran Xu, Peixi Peng, Guang Tan, Yuan Li, Xinhai Xu, Yonghong Tian
+  - Key Words: Visual Reinforcement Learning, Multi-Modality Representation, Dynamic Vision Sensor
+  - ExpEnv: [Carla]()
+
 - [Vision-and-Language Navigation via Causal Learning](https://arxiv.org/abs/2404.10241)
   - Liuyi Wang, Zongtao He, Ronghao Dang, Mengjiao Shen, Chengju Liu, Qijun Chen
   - Key Words: vision-and-language navigation, cross-modal causal transformer
@@ -246,6 +288,11 @@ format:
   - ExpEnv: [MetaWorld](https://github.com/suraj-nair-1/metaworld), [Franka Kitchen, Adroit](https://github.com/aravindr93/mjrl)
 
 ### Other
+- [RL-EMO: A Reinforcement Learning Framework for Multimodal Emotion Recognition](https://arxiv.org/abs/2005.07648) *ICASSP 2024*
+  - Chengwen Zhang, Yuhao Zhang, Bo Cheng
+  - Keyword: Multimodal Emotion Recognition, Reinforcement Learning, Graph Convolution Network
+  - ExpEnv: None
+
 - [Language Conditioned Imitation Learning over Unstructured Data](https://arxiv.org/abs/2005.07648) *RSS 2021*
   - Corey Lynch, Pierre Sermanet 
   - Keyword: open-world environments
