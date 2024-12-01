@@ -29,6 +29,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
     - [ICLR 2022](#iclr-2022)
     - [ICLR 2021](#iclr-2021)
     - [ICLR 2019](#iclr-2019)
+    - [NeurIPS 2024](#neurips-2024)
     - [NeurIPS 2023](#neurips-2023)
     - [NeurIPS 2022](#neurips-2022)
     - [NeurIPS 2021](#neurips-2021)
@@ -119,6 +120,12 @@ format:
   - Dibya Ghosh, Abhishek Gupta, Sergey Levine. 
   - Key Words: Actionable Representations Learning
   - ExpEnv: 2D navigation(2D Wall, 2D Rooms, Wheeled, Wheeled Rooms, Ant, Pushing)
+
+### NeurIPS 2024
+- [The Surprising Ineffectiveness of Pre-Trained Visual Representations for Model-Based Reinforcement Learning](https://openreview.net/pdf?id=LvAy07mCxU)
+  - Moritz Schneider, Robert Krug, Narunas Vaskevicius, Luigi Palmieri, Joschka Boedecker
+  - Key Words: reinforcement learning, rl, model-based reinforcement learning, representation learning, pvr, visual representations
+  - ExpEnv:  [DeepMind Control Suite](https://github.com/deepmind/dm_control), [ManiSkill2](), [Miniworld]()
 
 ### NeurIPS 2023
 - [Inverse Dynamics Pretraining Learns Good Representations for Multitask Imitation](https://openreview.net/pdf?id=kjMGHTo8Cs)
