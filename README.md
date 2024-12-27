@@ -127,6 +127,21 @@ format:
   - Key Words: reinforcement learning, rl, model-based reinforcement learning, representation learning, pvr, visual representations
   - ExpEnv:  [DeepMind Control Suite](https://github.com/deepmind/dm_control), [ManiSkill2](), [Miniworld]()
 
+- [Learning Multimodal Behaviors from Scratch with Diffusion Policy Gradient](https://arxiv.org/pdf/2406.00681)  
+  - Zechu Li, Rickmer Krohn, Tao Chen, Anurag Ajay, Pulkit Agrawal, Georgia Chalvatzaki  
+  - Keyword: Reinforcement Learning, Multimodal Behaviors, Diffusion Models  
+  - ExpEnv: AntMaze (navigation), Robotic Manipulation (Franka tasks)
+
+- [Seek Commonality but Preserve Differences: Dissected Dynamics Modeling for Multi-modal Visual RL](https://openreview.net/pdf?id=4php6bGL2W)  
+  - Yangru Huang, Peixi Peng, Yifan Zhao, Guangyao Chen, Yonghong Tian  
+  - Key: multi-modal reinforcement learning, visual RL, dynamics modeling, modality consistency, modality inconsistency, DDM  
+  - ExpEnv: CARLA, DMControl
+  - 
+- [FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation](https://openreview.net/pdf?id=q9RLsvYOB3)
+  - Ruizhe Zhong, Xingbo Du, Shixiong Kai, Zhentao Tang, Siyuan Xu, Jianye Hao, Mingxuan Yuan, Junchi Yan
+  - Keywords: 3D Floorplanning, Deep Reinforcement Learning, Hybrid Action Space, Multi-Modality Representation
+  - ExpEnv: MCNC Benchmark, GSRC Benchmark
+
 ### NeurIPS 2023
 - [Inverse Dynamics Pretraining Learns Good Representations for Multitask Imitation](https://openreview.net/pdf?id=kjMGHTo8Cs)
   - David Brandfonbrener, Ofir Nachum, Joan Bruna
