@@ -24,6 +24,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
+    - [ICLR 2025](#iclr-2025)
     - [ICLR 2024](#iclr-2024)
     - [ICLR 2023](#iclr-2023)
     - [ICLR 2022](#iclr-2022)
@@ -56,6 +57,33 @@ format:
   - experiment environment.
 ```
 
+### ICLR 2025
+
+- [Vision Language Models are In-Context Value Learners](https://openreview.net/forum?id=friHAl5ofG)  
+  - Yecheng Jason Ma, Joey Hejna, Chuyuan Fu, Dhruv Shah, Jacky Liang, Zhuo Xu, Sean Kirmani, Peng Xu, Danny Driess, Ted Xiao, Osbert Bastani, Dinesh Jayaraman, Wenhao Yu, Tingnan Zhang, Dorsa Sadigh, Fei Xia  
+  - Key: robot learning, vision-language model, value estimation, manipulation  
+  - ExpEnv: more than 300 distinct real-world tasks across diverse robot platforms, including bimanual manipulation tasks
+
+- [TopoNets: High performing vision and language models with brain-like topography](https://openreview.net/forum?id=THqWPzL00e)  
+  - Mayukh Deb, Mainak Deb, Apurva Ratan Murty  
+  - Key: topography, neuro-inspired, convolutional neural networks, Transformers, visual cortex, neuroscience  
+  - ExpEnv: ResNet-18, ResNet-50, ViT, GPT-Neo-125M, NanoGPT
+
+- [LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models](https://openreview.net/forum?id=z8sxoCYgmd)  
+  - Junyan Ye, Baichuan Zhou, Zilong Huang, Junan Zhang, Tianyi Bai, Hengrui Kang, Jun He, Honglin Lin, Zihao Wang, Tong Wu, Zhizheng Wu, Yiping Chen, Dahua Lin, Conghui He, Weijia Li  
+  - Key: LMMs, Deepfake, Multimodality  
+  - ExpEnv: Video, Image, 3D, Text, Audio
+
+- [Two Effects, One Trigger: On the Modality Gap, Object Bias, and Information Imbalance in Contrastive Vision-Language Models](https://openreview.net/forum?id=uAFHCZRmXk)  
+  - Simon Schrodi, David T. Hoffmann, Max Argus, Volker Fischer, Thomas Brox  
+  - Key: CLIP, modality gap, object bias, contrastive loss, data-centric, vision language models, VLM  
+  - ExpEnv: Contrastive Vision-Language Models (VLMs) Analysis
+  
+- [Multi-Robot Motion Planning with Diffusion Models](https://openreview.net/forum?id=AUCYptvAf3)  
+  - Yorai Shaoul, Itamar Mishani, Shivam Vats, Jiaoyang Li, Maxim Likhachev  
+  - Key: Multi-Agent Planning, Robotics, Generative Models  
+  - ExpEnv: Simulated logistics environments
+  
 ### ICLR 2024
 - [DrM: Mastering Visual Reinforcement Learning through Dormant Ratio Minimization](https://openreview.net/pdf?id=MSe8YFbhUE)
   - Guowei Xu, Ruijie Zheng, Yongyuan Liang, Xiyao Wang, Zhecheng Yuan, Tianying Ji, Yu Luo, Xiaoyu Liu, Jiaxin Yuan, Pu Hua, Shuzhen Li, Yanjie Ze, Hal Daumé III, Furong Huang, Huazhe Xu
