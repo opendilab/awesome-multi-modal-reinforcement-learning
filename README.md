@@ -24,6 +24,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
+    - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICLR 2024](#iclr-2024)
     - [ICLR 2023](#iclr-2023)
@@ -57,6 +58,33 @@ format:
   - experiment environment.
 ```
 
+### ICML 2025
+
+- [ABNet: Adaptive explicit-Barrier Net for Safe and Scalable Robot Learning](https://openreview.net/pdf?id=ymlwqfxuUc#page=5.86)
+  - Wei Xiao, Tsun-Hsuan Wang, Chuang Gan, Daniela Rus
+  - Key: Safe learning, Robot learning, Scalable learning, Barrier Net, Provable safety, Reinforcement Learning, Multi-modal control.
+  - ExpEnv: 2D robot obstacle avoidance, Safe robot manipulation, Vision-based end-to-end autonomous driving
+  
+- [DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control](https://openreview.net/pdf?id=AVVXX0erKT#page=7.45)
+  - Guiliang Liu, Yueci Deng, Runyi Zhao, Huayi Zhou, Jian Chen, Jietao Chen, Ruiyan Xu, Yunxin Tai, Kui Jia
+  - Key: Data Engine, Embodied AI, Robot Control, Manipulation, Policy Learning, Sim2Real, Domain Randomization, Domain Adaptation, Reinforcement Learning, Multi-modal control.
+  - ExpEnv: Robot manipulation tasks (e.g., pick-and-place), diverse tasks, multiple robot embodiments.
+
+- [DynaMind: Reasoning over Abstract Video Dynamics for Embodied Decision-Making](https://openreview.net/pdf?id=ziDKPXJBYL#page=5.63)
+  - Ziru Wang, Mengmeng Wang, Jade Dai, Teli Ma, Guo-Jun Qi, Yong Liu, Guang Dai, Jingdong Wang
+  - Key: Embodied Decision-Making, Multi-modal Learning, Video Dynamics Abstraction, Robot Learning.
+  - ExpEnv: LOReL Sawyer, Franka Kitchen, BabyAI, Real-world scenarios.
+
+- [Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and Multi-Agent Environments](https://openreview.net/pdf?id=htP5YRXcS9#page=5.53)
+  - Mikel Malagón, Josu Ceberio, Jose A. Lozano
+  - Key: 3D Environments, Reinforcement Learning, Multi-Agent Systems, Embodied AI.
+  - ExpEnv: One-vs-one multi-agent combat environment (Craftium-built), Open-world environment (Luanti/VoxeLibre in Craftium), Procedural 3D Dungeons (Craftium-built).
+
+- [Layer-wise Alignment: Examining Safety Alignment Across Image Encoder Layers in Vision Language Models](https://openreview.net/pdf?id=F1ff8zcjPp#page=6.08)
+  - Saketh Bachu, Erfan Shayegani, Rohit Lal, Trishna Chakraborty, Arindam Dutta, Chengyu Song, Yue Dong, Nael B. Abu-Ghazaleh, Amit Roy-Chowdhury
+  - Key: Vision Language Models, Safety Alignment, Reinforcement Learning from Human Feedback (RLHF), Multi-modal RL.
+  - ExpEnv: Jailbreak-V28K, AdvBench-COCO (derived from AdvBench and MS-COCO), HH-RLHF, VQA-v2, Custom Prompts.
+  
 ### ICLR 2025
 
 - [Vision Language Models are In-Context Value Learners](https://openreview.net/forum?id=friHAl5ofG)  
