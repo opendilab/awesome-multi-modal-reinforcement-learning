@@ -24,6 +24,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
+    - [NeurIPS 2025](#neurips-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICLR 2024](#iclr-2024)
@@ -57,6 +58,233 @@ format:
   - key words.
   - experiment environment.
 ```
+
+### NeurIPS 2025
+
+- [PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models](https://openreview.net/forum?id=4xvE6Iy77Y)
+  - Ruiqi Wang, Dezhong Zhao, Ziqin Yuan, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, Byung-Cheol Min
+  - Keywords: Preference-based Reinforcement Learning, Foundation Models for Robotics, Neuro-Symbolic Fusion, Multimodal Feedback, Causal Inference, Trajectory Synthesis, Robot Manipulation
+  - ExpEnv: 2 locomotion and 6 manipulation tasks
+
+- [Co-Reinforcement Learning for Unified Multimodal Understanding and Generation](https://openreview.net/pdf/89f6d8ae4000d3f0c62faca1308194e0858b9a65.pdf)
+  - Jingjing Jiang, Chongjie Si, Jun Luo, Hanwang Zhang, Chao Ma
+  - Keywords: Reinforcement Learning, GRPO, Unified Multimodal Understanding and Generation
+  - ExpEnv: text-to-image generation and multimodal understanding benchmarks
+
+- [VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning](https://tiger-ai-lab.github.io/VL-Rethinker/)
+  - Haozhe Wang, Chao Qu, Zuming Huang, Wei Chu, Fangzhen Lin, Wenhu Chen
+  - Keywords: Vision-Language Models, Reasoning, Reinforcement Learning
+  - ExpEnv: MathVista, MathVerse, MathVision, MMMU-Pro, EMMA, MEGA-Bench
+
+- [SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement](https://openreview.net/forum?id=PHu9xJeAum&referrer=%5Bthe%20profile%20of%20Furong%20Huang%5D(%2Fprofile%3Fid%3D~Furong_Huang1))
+  - Xiyao Wang, Zhengyuan Yang, Chao Feng, Hongjin Lu, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang
+  - Keywords: vision language model; reinforcement finetuning; vlm reasoning; data selection
+  - ExpEnv: MathVista and other visual reasoning benchmarks
+
+- [VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank](https://arxiv.org/abs/2505.14460)
+  - Tianhe Wu, Jian Zou, Jie Liang, Lei Zhang, Kede Ma
+  - Keywords: Image Quality Assessment, Reinforcement Learning, Reasoning-induced no-reference IQA model
+  - ExpEnv: Image quality assessment benchmarks
+
+- [Q-Insight: Understanding Image Quality via Visual Reinforcement Learning](https://openreview.net/forum?id=Bds54EfR9x)
+  - Weiqi Li, Xuanyu Zhang, Shijie Zhao, Yabin ZHANG, Junlin Li, Li zhang, Jian Zhang
+  - Keywords: image quality understanding, multi-modal large language model, reinforcement learning
+  - ExpEnv: Image quality understanding benchmarks
+
+- [To Think or Not To Think: A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning](https://openreview.net/forum?id=YexxvBGwQM&referrer=%5Bthe%20profile%20of%20Kaipeng%20Zhang%5D(%2Fprofile%3Fid%3D~Kaipeng_Zhang1))
+  - Ming Li, Jike Zhong, Shitian Zhao, Yuxiang Lai, Haoquan Zhang, Wang Bill Zhu, Kaipeng Zhang
+  - Keywords: Visual Reinforcement Fine-Tuning, explicit thinking, overthinking
+  - ExpEnv: six diverse visual reasoning tasks
+
+- [Fast-Slow Thinking GRPO for Large Vision-Language Model Reasoning](https://openreview.net/pdf/52fe68c14c7abde636af8fd396bd6a026575c7f0.pdf)
+  - Wenyi Xiao, Leilei Gan
+  - Keywords: Large Vision-Language Model, Fast-Slow Thinking, Reasoning
+  - ExpEnv: seven reasoning benchmarks
+
+- [SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning](https://openreview.net/forum?id=dt940loCBT&referrer=%5Bthe%20profile%20of%20Yuanpei%20Chen%5D(%2Fprofile%3Fid%3D~Yuanpei_Chen2))
+  - Borong Zhang, Yuhao Zhang, Jiaming Ji, Yingshan Lei, Josef Dai, Yuanpei Chen, Yaodong Yang
+  - Keywords: Vision-Language-Action Models, Safety Alignment, Large-Scale Constrained Learning
+  - ExpEnv: long-horizon mobile manipulation tasks
+
+- [Think or Not? Selective Reasoning via Reinforcement Learning for Vision-Language Models](https://arxiv.org/abs/2505.16854)
+  - Jiaqi WANG, Kevin Qinghong Lin, James Cheng, Mike Zheng Shou
+  - Keywords: Vision-Language Models, Reinforcement Learning
+  - ExpEnv: CLEVR, Super-CLEVR, GeoQA, AITZ
+
+- [VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning](https://arxiv.org/abs/2507.13348)
+  - Senqiao Yang, Junyi Li, Xin Lai, Jinming Wu, Wei Li, Zejun MA, Bei Yu, Hengshuang Zhao, Jiaya Jia
+  - Keywords: Vision Language Models, Reinforcement Learning
+  - ExpEnv: general VQA tasks and OCR-related tasks
+
+- [Systematic Reward Gap Optimization for Mitigating VLM Hallucinations](https://openreview.net/forum?id=fJRuMulPkc)
+  - Lehan He, Zeren Chen, Zhelun Shi, Tianyu Yu, Lu Sheng, Jing Shao
+  - Keywords: Vision Language Models (VLMs), Preference learning, Hallucination mitigation, Reinforcement Learning from AI Feedback (RLAIF)
+  - ExpEnv: ObjectHal-Bench and other hallucination benchmarks
+
+- [VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents](https://openreview.net/forum?id=xpjWEgf8zi&referrer=%5Bthe%20profile%20of%20Qineng%20Wang%5D(%2Fprofile%3Fid%3D~Qineng_Wang1))
+  - Kangrui Wang, Pingyue Zhang, Zihan Wang, Yaning Gao, Linjie Li, Qineng Wang, Hanyang Chen, Yiping Lu, Zhengyuan Yang, Lijuan Wang, Ranjay Krishna, Jiajun Wu, Li Fei-Fei, Yejin Choi, Manling Li
+  - Keywords: Visual States, World Modeling, Multi-turn RL, VLM Agents
+  - ExpEnv: five diverse agent tasks
+
+- [Point-RFT: Improving Multimodal Reasoning with Visually Grounded Reinforcement Finetuning](https://arxiv.org/abs/2505.19702)
+  - Minheng Ni, Zhengyuan Yang, Linjie Li, Chung-Ching Lin, Kevin Lin, Wangmeng Zuo, Lijuan Wang
+  - Keywords: Large multimodal model, grounded reasoning, reinforcement learning
+  - ExpEnv: ChartQA, CharXiv, PlotQA, IconQA, TabMWP
+
+- [MiCo: Multi-image Contrast for Reinforcement Visual Reasoning](https://arxiv.org/abs/2506.22434)
+  - Xi Chen, Mingkang Zhu, Shaoteng Liu, Xiaoyang Wu, Xiaogang Xu, Yu Liu, Xiang Bai, Hengshuang Zhao
+  - Keywords: Visual Reasoning, Chain-of-Thought, LLM, VLM, MLLM
+  - ExpEnv: multi-image reasoning benchmarks
+
+- [DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](https://openreview.net/pdf/3059449b6b0406f728c822c610ef64b57988b472.pdf)
+  - Jinyoung Park, Jeehye Na, Jinyoung Kim, Hyunwoo J. Kim
+  - Keywords: Video Large Language Model, Post-training, GRPO
+  - ExpEnv: video reasoning benchmarks
+
+- [SAM-R1: Leveraging SAM for Reward Feedback in Multimodal Segmentation via Reinforcement Learning](https://arxiv.org/abs/2505.22596)
+  - Jiaqi Huang, Zunnan Xu, Jun Zhou, Ting Liu, Yicheng Xiao, Mingwen Ou, Bowen Ji, Xiu Li, Kehong Yuan
+  - Keywords: Reinforcement Learning, Multimodal Large Models, Image Segmentation
+  - ExpEnv: image segmentation benchmarks
+
+- [SE-GUI: Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/abs/2505.12370)
+  - Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li
+  - Keywords: gui agent; reinforcement learning; visual grounding
+  - ExpEnv: ScreenSpot-Pro and other grounding benchmarks
+
+- [GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2512.02423)
+  - Haolong Yan, Yeqing Shen, Xin Huang, Jia Wang, Kaijun Tan, Zhixuan Liang, Hongxin Li, Zheng Ge, Osamu Yoshie, Si Li, Xiangyu Zhang, Daxin Jiang
+  - Keywords: GUI Environment, Large Vision Language Model, Multi-Turn Reinforcement Learning, Agent
+  - ExpEnv: PC software and mobile Apps simulation
+
+- [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning of Vision Language Models](https://arxiv.org/abs/2503.20752)
+  - Huajie Tan, Yuheng Ji, Xiaoshuai Hao, Xiansheng Chen, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang
+  - Keywords: Multimodal, Reinforcement Fine-Tuning, Visual Reasoning
+  - ExpEnv: visual counting, structural perception, spatial transformation
+
+- [TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs](https://openreview.net/pdf/54deb111742d89d20c4d8ec881ccb3a7d3f8aed6.pdf)
+  - Yunheng Li, JingCheng, Shaoyong Jia, Hangyi Kuang, Shaohui Jiao, Qibin Hou, Ming-Ming Cheng
+  - Keywords: Temporal Grounding; Multimodal Large Language Model; Reinforcement Fine-Tuning
+  - ExpEnv: Charades-STA, ActivityNet Captions, QVHighlights
+
+- [Grounded Reinforcement Learning for Visual Reasoning](https://arxiv.org/abs/2505.23678)
+  - Gabriel Herbert Sarch, Snigdha Saha, Naitik Khandelwal, Ayush Jain, Michael J. Tarr, Aviral Kumar, Katerina Fragkiadaki
+  - Keywords: visual reasoning, vision-language models, reinforcement learning, visual grounding
+  - ExpEnv: SAT-2, BLINK, V*bench, ScreenSpot, VisualWebArena
+
+- [SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](https://openreview.net/pdf/514851b938f3c4ab888ed4499926b37fdbb1b89c.pdf)
+  - Zhongwei Wan, Zhihao Dou, Che Liu, Yu Zhang, Dongfei Cui, Qinjian Zhao, Hui Shen, Jing Xiong, Yi Xin, Yifan Jiang, Chaofan Tao, Yangfan He, Mi Zhang, Shen Yan
+  - Keywords: MLLMs, Reasoning
+  - ExpEnv: MathVista, MathVision, Mathverse, MMMU-Pro
+
+- [Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration](https://openreview.net/pdf/eaa5aae3372db3e083fa1a4f662f19c999ff6d91.pdf)
+  - Hao Zhong, Muzhi Zhu, Zongze Du, Zheng Huang, Canyu Zhao, Mingyu Liu, Wen Wang, Hao Chen, Chunhua Shen
+  - Keywords: RL, Omni
+  - ExpEnv: Referring Audio-Visual Segmentation (RefAVS), Reasoning Video Object Segmentation (REVOS)
+
+- [Janus-Pro-R1: Advancing Collaborative Visual Comprehension and Generation via Reinforcement Learning](https://arxiv.org/html/2506.01480v2)
+  - Kaihang Pan, Yang Wu, Wendong Bu, Kai Shen, Juncheng Li, Yingting Wang, liyunfei, Siliang Tang, Jun Xiao, Fei Wu, ZhaoHang, Yueting Zhuang
+  - Keywords: Image generation, Image understanding
+  - ExpEnv: text-to-image generation and image editing benchmarks
+
+- [Semi-off-Policy Reinforcement Learning for Vision-Language Slow-Thinking Reasoning](https://arxiv.org/abs/2507.16814)
+  - Junhao Shen, Haiteng Zhao, Yuzhe Gu, Songyang Gao, Kuikun Liu, Haian Huang, Jianfei Gao, Dahua Lin, Wenwei Zhang, Kai Chen
+  - Keywords: Large vision-language model, Slow-thinking reasoning
+  - ExpEnv: MathVision, OlympiadBench
+
+- [ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs](https://openreview.net/pdf/631a654bdd1aa99c3357feb56e89859a66512702.pdf)
+  - Xiyao Wang, Zhengyuan Yang, Chao Feng, Yuhang Zhou, Xiaoyu Liu, Yongyuan Liang, Ming Li, Ziyi Zang, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang
+  - Keywords: Visual reasoning; Vision-Language Model; Visual captioning; Reward Model; Visual Hallucination
+  - ExpEnv: visual perception benchmarks
+
+- [GuardReasoner-VL: Safeguarding VLMs via Reinforced Reasoning](https://arxiv.org/abs/2505.11049)
+  - Yue Liu, Shengfang Zhai, Mingzhe Du, Yulin Chen, Tri Cao, Hongcheng Gao, Cheng Wang, Xinfeng Li, Kun Wang, Junfeng Fang, Jiaheng Zhang, Bryan Hooi
+  - Keywords: Vision Language Model, Guard Model, Reinforcement Learning, Large Reasoning Model
+  - ExpEnv: safety benchmarks for VLMs
+
+- [Fact-R1: Towards Explainable Video Misinformation Detection with Deep Reasoning](https://arxiv.org/abs/2505.16836)
+  - Fanrui Zhang, Dian Li, Qiang Zhang, Chenjun, sinbadliu, Junxiong Lin, Jiahong Yan, Jiawei Liu, Zheng-Jun Zha
+  - Keywords: Video Misinformation Detection, Deep Reasoning
+  - ExpEnv: FakeVV benchmark
+
+- [Open Vision Reasoner: Transferring Linguistic Cognitive Behavior for Visual Reasoning](https://arxiv.org/abs/2507.05255)
+  - Yana Wei, Liang Zhao, Jianjian Sun, Kangheng Lin, jisheng yin, Jingcheng Hu, Yinmin Zhang, En Yu, Haoran Lv, Zejia Weng, Jia Wang, Qi Han, Zheng Ge, Xiangyu Zhang, Daxin Jiang, Vishal M. Patel
+  - Keywords: Multimodal LLM, Visual Reasoning, Cognitive Behavior Transfer
+  - ExpEnv: MATH500, MathVision, MathVerse
+
+- [VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](https://openreview.net/forum?id=3pORFyKzh1&referrer=%5Bthe%20profile%20of%20Rui%20Mao%5D(%2Fprofile%3Fid%3D~Rui_Mao2))
+  - Qi Wang, Yanrui Yu, Ye Yuan, Rui Mao, Tianfei Zhou
+  - Keywords: Multimodal Large Language Models, Video Reasoning, Reinforced fine-tuning
+  - ExpEnv: six video reasoning benchmarks
+
+- [Safe RLHF-V: Safe Reinforcement Learning from Multi-modal Human Feedback](https://arxiv.org/abs/2503.17682)
+  - Jiaming Ji, Xinyu Chen, Rui Pan, Conghui Zhang, Han Zhu, Jiahao Li, Donghai Hong, Boyuan Chen, Jiayi Zhou, Kaile Wang, Juntao Dai, Chi-Min Chan, Yida Tang, Sirui Han, Yike Guo, Yaodong Yang
+  - Keywords: AI Safety, AI Alignment
+  - ExpEnv: BeaverTails-V benchmark
+
+- [Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards](https://arxiv.org/abs/2509.19003)
+  - Honghao Chen, Xingzhou Lou, Xiaokun Feng, Kaiqi Huang, Xinlong Wang
+  - Keywords: VLM, Reasoning, PRM
+  - ExpEnv: vision-language reasoning benchmarks
+
+- [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/abs/2505.15879)
+  - Yue Fan, Xuehai He, Diji Yang, Kaizhi Zheng, Ching-Chen Kuo, Yuting Zheng, Sravana Jyothi Narayanaraju, Xinze Guan, Xin Eric Wang
+  - Keywords: Multimodal Reasoning model, Reinforcement learning
+  - ExpEnv: multimodal reasoning benchmarks
+
+- [NoisyGRPO: Incentivizing Multimodal CoT Reasoning via Noise Injection and Bayesian Estimation](https://openreview.net/pdf/96f8ac8e6e7af57f7d1898ceced0a9d165735c5e.pdf)
+  - Longtian Qiu, Shan Ning, Jiaxuan Sun, Xuming He
+  - Keywords: Multimodal Large Language Model, Reinforcement learning
+  - ExpEnv: CoT quality and hallucination benchmarks
+
+- [Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding](https://arxiv.org/abs/2503.13377)
+  - Ye Wang, Ziheng Wang, Boshen Xu, Yang Du, Kejun Lin, Zihan Xiao, Zihao Yue, Jianzhong Ju, Liang Zhang, Dingyi Yang, Xiangnan Fang, Zewen He, Zhenbo Luo, Wenxuan Wang, Junqi Lin, Jian Luan, Qin Jin
+  - Keywords: large vision language model, temporal video grounding, reinforcement learning, post-training
+  - ExpEnv: Charades-STA, ActivityNet Captions, QVHighlights, TVGBench
+
+- [Generative RLHF-V: Learning Principles from Multi-modal Human Preference](https://arxiv.org/abs/2505.18531)
+  - Jiayi Zhou, Jiaming Ji, Boyuan Chen, Jiapeng Sun, Wenqi Chen, Donghai Hong, Sirui Han, Yike Guo, Yaodong Yang
+  - Keywords: Alignment, Safety, RLHF, Preference Learning, Multi-modal LLMs
+  - ExpEnv: seven multimodal benchmarks
+
+- [OpenVLThinker: Complex Vision-Language Reasoning via Iterative SFT-RL Cycles](https://arxiv.org/abs/2503.17352)
+  - Yihe Deng, Hritik Bansal, Fan Yin, Nanyun Peng, Wei Wang, Kai-Wei Chang
+  - Keywords: Vision-language reasoning, iterative improvement, distillation, reinforcement learning
+  - ExpEnv: MathVista, EMMA, HallusionBench
+
+- [Video-R1: Reinforcing Video Reasoning in MLLMs](https://arxiv.org/abs/2503.21776)
+  - Kaituo Feng, Kaixiong Gong, Bohao Li, Zonghao Guo, Yibing Wang, Tianshuo Peng, Junfei Wu, Xiaoying Zhang, Benyou Wang, Xiangyu Yue
+  - Keywords: Multimodal Large Language Models, Video Reasoning
+  - ExpEnv: VideoMMMU, VSI-Bench, MVBench, TempCompass
+
+- [Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models](https://arxiv.org/abs/2509.17589)
+  - Jun Ling, Yao Qi, Tao Huang, Shibo Zhou, Yanqin Huang, Yang Jiang, Ziqi Song, Ying Zhou, Yang Yang, Heng Tao Shen, Peng Wang
+  - Keywords: table recognition, latex generation
+  - ExpEnv: table-to-LaTeX benchmarks
+
+- [ReAgent-V: A Reward-Driven Multi-Agent Framework for Video Understanding](https://arxiv.org/abs/2506.01300)
+  - Yiyang Zhou, Yangfan He, Yaofeng Su, Siwei Han, Joel Jang, Gedas Bertasius, Mohit Bansal, Huaxiu Yao
+  - Keywords: Video understanding; Multi-agent framework; Reflective reasoning; VLA alignment; Video reasoning
+  - ExpEnv: 12 datasets across video understanding, video reasoning, and VLA tasks
+
+- [Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models](https://arxiv.org/abs/2511.01618)
+  - Xiaoyu Zhan, Wenxuan Huang, Hao Sun, Xinyu Fu, Changfeng Ma, Shaosheng Cao, Bohan Jia, Shaohui Lin, Zhenfei Yin, LEI BAI, Wanli Ouyang, Yuanqi Li, Jie Guo, Yanwen Guo
+  - Keywords: Visual-Language Model, 3D Reasoning, GRPO
+  - ExpEnv: 3D spatial reasoning tasks
+
+- [EvolvedGRPO: Unlocking Reasoning in LVLMs via Progressive Instruction Evolution](https://openreview.net/forum?id=tjXtcZjIgQ)
+  - Zhebei Shen, Qifan Yu, Juncheng Li, Wei Ji, Qizhi Chen, Siliang Tang, Yueting Zhuang
+  - Keywords: multi-modal reasoning, reinforcement learning, self-improvement
+  - ExpEnv: multi-modal reasoning tasks
+
+- [URSA: Unlocking Multimodal Mathematical Reasoning via Process Reward Model](https://openreview.net/forum?id=96I8PGPALv&referrer=%5Bthe%20profile%20of%20Yujiu%20Yang%5D(%2Fprofile%3Fid%3D~Yujiu_Yang2))
+  - Ruilin Luo, Zhuofan Zheng, Lei Wang, Yifan Wang, Xinzhe Ni, Zicheng Lin, Songtao Jiang, Yiyao Yu, Chufan Shi, Ruihang Chu, Jin zeng, Yujiu Yang
+  - Keywords: Multimodal Reasoning, Data Synthesis, Process Reward Model, Reinforcement Learning
+  - ExpEnv: ChartQA and other multimodal math benchmarks
+
+- [Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing](https://arxiv.org/abs/2506.09965)
+  - Junfei Wu, Jian Guan, Kaituo Feng, Qiang Liu, Shu Wu, Liang Wang, Wei Wu, Tieniu Tan
+  - Keywords: Large Vision-Language Models, Spatial Reasoning
+  - ExpEnv: spatial reasoning benchmarks
 
 ### ICML 2025
 
