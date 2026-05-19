@@ -24,6 +24,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
+    - [ICML 2026](#icml-2026)
     - [NeurIPS 2025](#neurips-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
@@ -58,6 +59,28 @@ format:
   - key words.
   - experiment environment.
 ```
+
+### ICML 2026
+
+- [AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation](https://arxiv.org/abs/2601.21602)
+  - Jianli Sun, Bin Tian, Qiyao Zhang, Chengxiang Li, Zihan Song, Zhiyong Cui, Yisheng Lv, Yonglin Tian
+  - Key: aerial manipulation benchmark, VLA system study, multimodal dataset, long-horizon planning
+  - ExpEnv: physics-based aerial-manipulation simulator and 3,000 teleoperated demonstrations covering manipulation, spatial understanding, semantic reasoning, and long-horizon planning
+
+- [Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds](https://arxiv.org/abs/2602.00807)
+  - Xianzhe Fan, Shengliang Deng, Xiaoyang Wu, Yuxiang Lu, Zhuoling Li, Mi Yan, Yujia Zhang, Zhizheng Zhang, He Wang, Hengshuang Zhao
+  - Key: 3D-enhanced VLA, point clouds, domain-agnostic representation learning, robustness to domain gap
+  - ExpEnv: simulation and real-world VLA experiments with simulator, sensor, and model-estimated point clouds
+
+- [Mixture of Horizons in Action Chunking](https://arxiv.org/abs/2511.19433)
+  - Dong Jing, Gang Wang, Jiaqi Liu, Weiliang Tang, Zelong Sun, Yunchao Yao, Zhenyu Wei, Yunhui Liu, Zhiwu Lu, Mingyu Ding
+  - Key: action chunking, mixture of horizons, adaptive inference, flow-based VLA policies
+  - ExpEnv: simulation and real-world robotic manipulation tasks, including mixed-task LIBERO evaluation
+
+- [From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models](https://arxiv.org/abs/2605.04678)
+  - Yihan Lin, Haoyang Li, Yang Li, Haitao Shen, Yihan Zhao, Chao Shao, Jing Zhang
+  - Key: latent action supervision, VLA training, discrete action tokens, heterogeneous-data unification
+  - ExpEnv: unified VLA baseline across heterogeneous datasets with long-horizon, scene-generalization, motor-coordination, and mixed-data evaluations
 
 ### NeurIPS 2025
 
@@ -372,7 +395,7 @@ format:
   - Key Words: multimodal prompts, transformer-based generalist agent model, large-scale benchmark
   - ExpEnv: [VIMA-Bench](https://github.com/vimalabs/VimaBench), [VIMA-Data](https://huggingface.co/datasets/VIMA/VIMA-Data)
 
-- [MIND ’S EYE: GROUNDED LANGUAGE MODEL REASONING THROUGH SIMULATION](https://arxiv.org/abs/2210.05359)
+- [MIND'S EYE: GROUNDED LANGUAGE MODEL REASONING THROUGH SIMULATION](https://arxiv.org/abs/2210.05359)
   - Ruibo Liu, Jason Wei, Shixiang Shane Gu, Te-Yen Wu, Soroush Vosoughi, Claire Cui, Denny Zhou, Andrew M. Dai
   - Keyword:  language2physical-world, reasoning ability
   - ExpEnv: [MuJoCo](https://mujoco.org/)
@@ -469,7 +492,7 @@ format:
   - Key Words: Vision-and-Language Navigation
   - ExpEnv: [Room-to-Room](https://paperswithcode.com/dataset/room-to-room), [Room-Across-Room](https://github.com/google-research-datasets/RxR)
 
-- [Pretraining Representations for Data-Efﬁcient Reinforcement Learning](https://papers.nips.cc/paper/2021/hash/69eba34671b3ef1ef38ee85caae6b2a1-Abstract.html)
+- [Pretraining Representations for Data-Efficient Reinforcement Learning](https://papers.nips.cc/paper/2021/hash/69eba34671b3ef1ef38ee85caae6b2a1-Abstract.html)
   - Max Schwarzer, Nitarshan Rajkumar, Michael Noukhovitch, etc.
   - Key Words: latent dynamics modelling, unsupervised RL
   - ExpEnv: [Atari](https://github.com/openai/gym)
@@ -604,15 +627,15 @@ format:
   - Keyword: open-world environments
   - ExpEnv: None
 
-- [Learning Generalizable Robotic Reward Functions from “In-The-Wild” Human Videos](https://arxiv.org/abs/2103.16817) *RSS 2021*
+- [Learning Generalizable Robotic Reward Functions from "In-The-Wild" Human Videos](https://arxiv.org/abs/2103.16817) *RSS 2021*
   - Annie S. Chen, Suraj Nair, Chelsea Finn. 
-  - Key Words: Reward Functions, “In-The-Wild” Human Videos
+  - Key Words: Reward Functions, "In-The-Wild" Human Videos
   - ExpEnv: None
 
 - [Offline Reinforcement Learning from Images with Latent Space Models](https://proceedings.mlr.press/v144/rafailov21a.html) *L4DC 2021*
   - Rafael Rafailov, Tianhe Yu, Aravind Rajeswaran, etc. 
   - Key Words: Latent Space Models
-  - ExpEnv: [DeepMind Control](https://github.com/deepmind/dm_control), [Adroit Pen](https://github.com/Farama-Foundation/D4RL), [Sawyer Door Open](https://github.com/suraj-nair-1/metaworld), [Robel D’Claw Screw](https://github.com/google-research/robel)
+  - ExpEnv: [DeepMind Control](https://github.com/deepmind/dm_control), [Adroit Pen](https://github.com/Farama-Foundation/D4RL), [Sawyer Door Open](https://github.com/suraj-nair-1/metaworld), [Robel D'Claw Screw](https://github.com/google-research/robel)
 
 - [Is Cross-Attention Preferable to Self-Attention for Multi-Modal Emotion Recognition?](https://arxiv.org/abs/2202.09263) *ICASSP 2022*
   - Vandana Rajan, Alessio Brutti, Andrea Cavallaro. 
