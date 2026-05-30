@@ -24,6 +24,8 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
+    - [ICML 2026](#icml-2026)
+    - [ICLR 2026](#iclr-2026)
     - [NeurIPS 2025](#neurips-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
@@ -58,6 +60,54 @@ format:
   - key words.
   - experiment environment.
 ```
+### ICML 2026
+
+- [AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation](https://arxiv.org/abs/2601.21602)
+  - Jianli Sun, Bin Tian, Qiyao Zhang, Chengxiang Li, Zihan Song, Zhiyong Cui, Yisheng Lv, Yonglin Tian
+  - Keywords: aerial manipulation benchmark, VLA system study, multimodal dataset, long-horizon planning
+  - ExpEnv: physics-based aerial-manipulation simulator and 3,000 teleoperated demonstrations covering manipulation, spatial understanding, semantic reasoning, and long-horizon planning
+
+- [Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds](https://arxiv.org/abs/2602.00807)
+  - Xianzhe Fan, Shengliang Deng, Xiaoyang Wu, Yuxiang Lu, Zhuoling Li, Mi Yan, Yujia Zhang, Zhizheng Zhang, He Wang, Hengshuang Zhao
+  - Keywords: 3D-enhanced VLA, point clouds, domain-agnostic representation learning, robustness to domain gap
+  - ExpEnv: simulation and real-world VLA experiments with simulator, sensor, and model-estimated point clouds
+
+- [Mixture of Horizons in Action Chunking](https://arxiv.org/abs/2511.19433)
+  - Dong Jing, Gang Wang, Jiaqi Liu, Weiliang Tang, Zelong Sun, Yunchao Yao, Zhenyu Wei, Yunhui Liu, Zhiwu Lu, Mingyu Ding
+  - Keywords: action chunking, mixture of horizons, adaptive inference, flow-based VLA policies
+  - ExpEnv: simulation and real-world robotic manipulation tasks, including mixed-task LIBERO evaluation
+
+- [From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models](https://arxiv.org/abs/2605.04678)
+  - Yihan Lin, Haoyang Li, Yang Li, Haitao Shen, Yihan Zhao, Chao Shao, Jing Zhang
+  - Keywords: latent action supervision, VLA training, discrete action tokens, heterogeneous-data unification
+  - ExpEnv: unified VLA baseline across heterogeneous datasets with long-horizon, scene-generalization, motor-coordination, and mixed-data evaluations
+
+### ICLR 2026
+
+- [Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation](https://openreview.net/forum?id=i5wlozMFsQ)
+  - Yifu Yuan, Haiqin Cui, Yaoting Huang, Yibin Chen, Fei Ni, Zibin Dong, Pengyi Li, Yan Zheng, Hongyao Tang, Jianye Hao
+  - Key: reinforced embodied reasoning, multimodal manipulation policy learning, reward-driven post-training
+  - ExpEnv: 11 embodied manipulation/pointing benchmarks, SIMPLEREnv, and 8 real-world XArm tasks
+
+- [CompassNav: Steering From Path Imitation to Decision Understanding In Navigation](https://openreview.net/forum?id=eqcDckWHik)
+  - LinFeng Li, Jian Zhao, Yuan Xie, Xin Tan, Xuelong Li
+  - Key: decision-understanding navigation, LVLM reinforcement optimization, trajectory-quality rewards
+  - ExpEnv: goal-navigation benchmarks and real-robot navigation
+
+- [VidBridge-R1: Bridging QA and Captioning for RL-based Video Understanding Models with Intermediate Proxy Tasks](https://openreview.net/forum?id=K7SdrTobcY)
+  - Xinlong Chen, Yuanxing Zhang, Yushuo Guan, Weihong Lin, Zekun Moore Wang, Bohan Zeng, Yang Shi, Sihan Yang, Qiang Liu, Pengfei Wan, Liang Wang
+  - Key: RL-based multimodal video understanding, QA-caption objective balancing, proxy-task alignment
+  - ExpEnv: DarkEventInfer, MixVidQA, and mixed video QA/caption evaluations
+
+- [No Labels, No Problem: Training Visual Reasoners with Multimodal Verifiers](https://openreview.net/forum?id=H7gtryDnVK)
+  - Damiano Marsili, Georgia Gkioxari
+  - Key: multimodal verifier-guided reinforcement learning, label-free visual reasoning optimization
+  - ExpEnv: spatial visual reasoning and grounding tasks with verifier-based feedback
+
+- [Geometry of Uncertainty: Learning Metric Spaces for Multimodal State Estimation in RL](https://openreview.net/forum?id=rw0vvcHZPe)
+  - Alfredo Reichlin, Adriano Pacciarelli, Danica Kragic, Miguel Vasco
+  - Key: multimodal state estimation, uncertainty-aware metric learning, reinforcement learning robustness
+  - ExpEnv: multimodal RL tasks under noisy sensing and fusion settings
 
 ### NeurIPS 2025
 
