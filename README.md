@@ -25,6 +25,7 @@ Multi-Modal RL agents focus on learning from video (images), language (text), or
   - [Table of Contents](#table-of-contents)
   - [Papers](#papers)
     - [ICML 2026](#icml-2026)
+    - [CVPR 2026](#cvpr-2026)
     - [ICLR 2026](#iclr-2026)
     - [NeurIPS 2025](#neurips-2025)
     - [ICML 2025](#icml-2025)
@@ -81,6 +82,13 @@ format:
   - Yihan Lin, Haoyang Li, Yang Li, Haitao Shen, Yihan Zhao, Chao Shao, Jing Zhang
   - Keywords: latent action supervision, VLA training, discrete action tokens, heterogeneous-data unification
   - ExpEnv: unified VLA baseline across heterogeneous datasets with long-horizon, scene-generalization, motor-coordination, and mixed-data evaluations
+
+### CVPR 2026
+
+- [FusionAgent: A Multimodal Agent with Dynamic Model Selection for Human Recognition](https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_FusionAgent_A_Multimodal_Agent_with_Dynamic_Model_Selection_for_Human_CVPR_2026_paper.html) [[arXiv](https://arxiv.org/abs/2603.26908)] [[Project](https://fusionagent.github.io/)] [[Code](https://github.com/jiezhu23/FusionAgent_CVPR26)]
+  - Jie Zhu, Xiao Guo, Yiyang Su, Anil Jain, Xiaoming Liu
+  - Keywords: multimodal agent, reinforcement fine-tuning, dynamic expert selection, human recognition, score fusion
+  - ExpEnv: CCVID, MEVID, and LTCC whole-body human recognition benchmarks
 
 ### ICLR 2026
 
@@ -670,6 +678,11 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+- [DepthAgent: Towards Better Universal Depth Estimation via Sample-wise Expert Selection](https://arxiv.org/abs/2605.23281)
+  - Jie Zhu, Girish Chandar Ganesan, Xiaoming Liu
+  - Keywords: multimodal agent, reinforcement fine-tuning, multi-turn tool use, depth expert selection, universal depth estimation
+  - ExpEnv: KITTI, NYU-v2, IBims-1, ScanNet++, Matterport3D, and Pano3D-GV2 across perspective, fisheye, and panoramic camera domains
+
 - [Spatialvlm: Endowing vision-language models with spatial reasoning capabilities](https://arxiv.org/pdf/2401.12168)
   - Boyuan Chen, Zhuo Xu, Sean Kirmani, Brian Ichter, Danny Driess, Pete Florence, Dorsa Sadigh, Leonidas Guibas, Fei Xia
   - Key Words: Visual Question Answering, 3D Spatial Reasoning
