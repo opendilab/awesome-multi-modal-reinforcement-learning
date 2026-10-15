@@ -62,6 +62,11 @@ format:
 ```
 ### ICML 2026
 
+- [Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224) [[Code]](https://github.com/MCG-NJU/Video-o3)
+  - Xiangyu Zeng, Zhiqiu Zhang, Yuhan Zhu, Xinhao Li, Zikang Wang, Changlian Ma, Qingyu Zhang, Zizheng Huang, Kun Ouyang, Tianxiang Jiang, Ziang Yan, Yi Wang, Hongjie Zhang, Yali Wang, Limin Wang
+  - Keywords: native tool use, interleaved video reasoning, trajectory-reward reinforcement learning
+  - ExpEnv: long-video multi-hop question answering
+
 - [AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation](https://arxiv.org/abs/2601.21602)
   - Jianli Sun, Bin Tian, Qiyao Zhang, Chengxiang Li, Zihan Song, Zhiyong Cui, Yisheng Lv, Yonglin Tian
   - Keywords: aerial manipulation benchmark, VLA system study, multimodal dataset, long-horizon planning
@@ -670,6 +675,11 @@ format:
   - ExpEnv: None
 
 ### ArXiv
+
+- [TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2607.17423) [[Code]](https://github.com/MCG-NJU/TimeLens2)
+  - Yuhan Zhu, Changlian Ma, Xiangyu Zeng, Xinhao Li, Zhiqiu Zhang, Songze Li, Jun Zhang, Tianxiang Jiang, Yuandong Yang, Ziang Yan, Zikang Wang, Xinyu Chen, Haoran Chen, Shaowei Zhang, Limin Wang
+  - Keywords: temporal grounding, verified SFT, GRPO
+  - ExpEnv: seven temporal-grounding settings, including long and egocentric video
 - [Spatialvlm: Endowing vision-language models with spatial reasoning capabilities](https://arxiv.org/pdf/2401.12168)
   - Boyuan Chen, Zhuo Xu, Sean Kirmani, Brian Ichter, Danny Driess, Pete Florence, Dorsa Sadigh, Leonidas Guibas, Fei Xia
   - Key Words: Visual Question Answering, 3D Spatial Reasoning
